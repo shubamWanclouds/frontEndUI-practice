@@ -5,7 +5,7 @@
 	font-family: arial, sans-serif;
 }
 
-.navbar {
+.header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -13,19 +13,21 @@
 	background: #23242b;
 	color: #fff;
 }
-.navbar i {
+.header i {
 	font-size: 30px;
 	cursor: pointer;
 	color: #fff;
 }
-.navbar i:hover {
+.header i:hover {
 	color: #127b8e;
 }
 
 #company-name {
 	font-size: 20px;
 	padding-left: 17px;
+	margin-top:3px;
 	margin-left:-20px;
+	align-items: center;
 }
 #company-name b {
 	color: #127b8e;
@@ -48,8 +50,13 @@
 	padding: 5px 0;
 }
 
-.container {
+.container2 {
 	display: flex;
+}
+
+.btn-secondary{
+	background-color:#23242B !important;
+    border-color: #23242B !important;
 }
 
 .content {
@@ -74,35 +81,36 @@
 	border-radius: 5px;
 }
 
-.side-bar {
+.sideBar {
 	width: 250px;
 	background: #262931;
 	min-height: 100vh;
 	transition: 500ms width;
 }
-.side-bar ul {
+.sideBar ul {
 	margin-top: 20px;
 	list-style: none;
+	padding:3px;
 }
-.side-bar ul li {
+.sideBar ul li {
 	font-size: 16px;
 	padding: 15px 0px;
-	padding-left: 20px;
+	padding-left:15px;
 	transition: 500ms background;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
-.side-bar ul li:hover {
+.sideBar ul li:hover {
 	background: #127b8e;
 }
-.side-bar ul li a {
+.sideBar ul li a {
 	text-decoration: none;
 	color: #eee;
 	cursor: pointer;
 	letter-spacing: 1px;
 }
-.side-bar ul li a i {
+.sideBar ul li a i {
 	display: inline-block;
 	padding-right: 10px;
 	font-size: 23px;
@@ -114,3 +122,5 @@
 	font-size: 20px;
 	transition: 500ms color;
 }
+
+

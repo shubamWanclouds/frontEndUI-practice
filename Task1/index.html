@@ -6,11 +6,13 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="script.js"></script>
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   </head>
 
   <body>
-    <header class="navbar">
+    <header class="header">
       <h2 id="company-name">Wan<b>Clouds</b></h2>
       <i
         id="navbtn"
@@ -19,12 +21,20 @@
         onclick="minimiseSidebar()"
       ></i>
       <div class="user-profile">
-        <h4>Shubam Dadhwal</h4>
+        <h6>Shubam Dadhwal</h6>
         <img src="img/user.jpg" />
+        <div class="dropdown mx-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
       </div>
+      
     </header>
-    <div class="container">
-      <nav class="side-bar">
+    <div class="container2">
+      <nav class="sideBar" style="width:250px">
         <ul>
           <li>
             <a href="#">
@@ -44,6 +54,6 @@
         <h1>WELCOME</h1>
       </section>
     </div>
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   </body>
 </html>
